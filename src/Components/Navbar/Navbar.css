@@ -42,6 +42,9 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    position: relative;
+
+    
 }
 
 .navbar-right .icons{
@@ -52,4 +55,29 @@
 .navbar-right .profile{
     border-radius: 4px;
     width: 35px;
+    
+}
+
+.navbar .dropdown{
+    background: gray;
+    position: absolute;
+    width: max-content;
+    border-radius: 3px;
+    top: 100%;
+    right: 0;
+    text-decoration: underline;
+    z-index: 1; 
+    padding: 15px 15px;
+    display: none;
+    cursor: default;
+    
+}
+
+.navbar .dropdown p{
+    font-size: 20;
+    cursor: pointer;
+}
+
+.navbar-profile:hover .dropdown{
+    display: block;
 }
