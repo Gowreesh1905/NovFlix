@@ -31,16 +31,31 @@
     display: flex;
     margin-bottom: 50px;
     gap: 10px;
+    position: relative;
+    top: 40px;
+    right: 360px;
 }
 
-.btn img{
+.btn-box .btn img{
     width: 25px;
 }
 
-.btn{
+.btn-box .btn{
     outline: 0;
     padding: 8px 20px;
     display: inline-flex;
-    background:white;
+    border: 0;
     align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btn-box .btn.dark-btn{
+    color: #fff;
+    background: #6d6d6eb3;
 }

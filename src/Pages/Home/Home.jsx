@@ -3,7 +3,7 @@ import './Home.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import banner from '../../assets/aot-banner.jpg'
 import title from '../../assets/banner_title.png'
-import play from '../../assets/info_icon.png'
+import play from '../../assets/play_icon.png'
 import info from '../../assets/info_icon.png'
 
 const Home = () => {
